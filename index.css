@@ -1,0 +1,130 @@
+
+
+body{
+    background-image: url("background-image bc.png");
+    background-position: bottom;
+    height: 100vh;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    margin: auto;
+}
+.img01{
+    margin: 10px 0px 0px 100px;
+    height: 62px;
+    width: 150px;
+}
+.headercenter{
+    margin: -55px 0px 0px 325px;
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    height: 10vh;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+    align-items: center ;
+}
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #010101;
+    font-size: 15px;
+    
+}
+#button{
+    height: 33px;
+    width: 91px;
+    background-color: rgb(208, 30, 143);
+    color: #00ffff;
+    border-radius: 4px;
+}
+#img02{
+   width: 40px; 
+      background: transparent;    
+      height: 40px;
+}
+.carlone{
+    background: snow;
+    margin: -19px 0px 0px 672px;
+    height: 53px;
+    width: 139px;
+    text-align: center;
+    border-radius: 28px;
+    border: none;
+    box-shadow: 0px 1px 22px -1px #000;
+}
+img {
+    width: 38px;
+    border-radius: 23px;
+    height: 27px;
+}
+h1{
+    margin: 0px;
+    display: flex;
+    font-size: 72px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+main {
+    /* text-align: center; */
+    margin: 133px 0px 0px 110px;
+    
+}
+p{
+    margin: 0px;
+    font-size: 20px;
+}
+button.applyonline {
+    height: 32px;
+    width: 155px;
+    background-color: rgb(208, 30, 143);
+    border-radius: 6px;
+    margin-top: 23px;
+    /* gap: 20px; */
+}
+button.lonecalculator {
+    height: 32px;
+    width: 155px;
+    color: rgb(208, 30, 143);
+    border-radius: 6px;
+    /* margin-top: 23px; */
+    margin: 10px 10px 10px 10px;
+}
+img.withfamily {
+    height: 55%;
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    margin: -430px 29px 0 43%;
+    background: transparent;
+    border-radius: 5px;
+}
+.home-loans {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 125px;
+    /* justify-content: space-between; */
+    padding: 10px 15px;
+    border-radius: 30px;
+    right: 10%;
+    top: 25%;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0px 1px 22px -1px #000;
+}
